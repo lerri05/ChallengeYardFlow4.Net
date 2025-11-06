@@ -81,7 +81,7 @@ cd ChallengeYardFlow
 Configure o arquivo appsettings.json com sua string de conexão Oracle:
 
 
-##"ConnectionStrings": {
+"ConnectionStrings": {
   "DefaultConnection": "User Id=seu_usuario;Password=sua_senha;Data Source=seu_servidor"
 },
 "ApiKey": {
