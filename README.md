@@ -78,6 +78,9 @@ git clone https://github.com/lerri05/ChallengeYardFlow.git
 cd ChallengeYardFlow
 ````
 Configure o arquivo appsettings.json com sua string de conexão Oracle:
+
+---
+
 "ConnectionStrings": {
   "DefaultConnection": "User Id=seu_usuario;Password=sua_senha;Data Source=seu_servidor"
 },
@@ -139,6 +142,7 @@ Use o cabeçalho X-API-Key para autenticação em endpoints protegidos.
 | GET    | `/health` | Retorna o status de funcionamento da API |
 
 🗂 Estrutura
+```
 ChallengeYardFlow
 ├── Controllers
 │   ├── AuthController.cs
@@ -168,6 +172,9 @@ ChallengeYardFlow
 ├── Program.cs
 ├── appsettings.json
 └── README.md
+```
+
+---
 
 🚧 Status da Aplicação
 ✅ Aplicação concluida
